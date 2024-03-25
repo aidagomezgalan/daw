@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recursos multimedia - Aida Gómez Galán</title>
+    <!-- ICONOS FONTAWESOME -->
+    <script
+      src="https://kit.fontawesome.com/dbff5b41e6.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="images/favicon.png" sizes="96x96" />
+    <!-- HOJA DE ESTILO VINCULADA -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- CABECERA -->
+    <header>
+      <img class="logo" src="images/08_logo.svg" alt="Crossfiteros" />
+      <h1>Promoción de verano</h1>
+    </header>
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav>
+      <ul class="nav-ul">
+        <li class="nav-li"><a href="#imagen" class="fas fa-solid fa-image" title="Imagen"></a></li>
+        <li class="nav-li"><a href="#audio" class="fas fa-solid fa-headphones" title="Audio"></a></li>
+        <li class="nav-li"><a href="#video" class="fas fa-solid fa-video" title="Vídeo"></a></li>
+      </ul>
+    </nav>
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+      <!-- Imagen -->
+      <section class="imagenes-section">
+        <h2><a name="imagen">imagen</a></h2>
+        <div class="imagenes-div">
+          <div class="fuentes">
+            <h3>Imágenes fuentes</h3>
+            <div class="imagen">
+              <figure>
+                <img src="./images/01_imagen.JPG" alt="Imagen01" />
+                <figcaption>/Imagen 01/</figcaption>
+              </figure>
+              <figure>
+                <img src="./images/02_imagen.jpg" alt="Imagen02" />
+                <figcaption>/Imagen 02/</figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="composicion">
+            <h3>Composición</h3>
+            <div class="imagen">
+              <figure>
+                <img src="./images/04_composicion.jpg" alt="Imagen04" />
+                <figcaption>/Imagen 04/</figcaption>
+              </figure>
+              <figure>
+                <img src="./images/05_composicion_formato_1.gif" alt="Imagen05" />
+                <figcaption>/Imagen 05/</figcaption>
+              </figure>
+            </div> 
+          </div>
+          <div class="responsiva">
+            <h3>Imagen responsiva</h3>
+            <div class="imagen">
+              <figure>
+                <img sizes="(min-width:600px) 100vw, 30vw"
+                srcset="./images/07_composicion_mejorada_dim_600.jpg 600w, 
+                ./images/06_composicion_mejorada_dim_1200.jpg 1200w" 
+                alt="Imagen responsiva"  />
+                <figcaption>/Imagen 06/</figcaption>
+              </figure>
+          </div>
+        </div>
+      </section>
+      <!-- Audio -->
+      <section class="audio-section">
+        <h2><a name="audio">audio</a></h2>
+        <div>
+          <audio controls preload="metadata">
+            <source src="./sounds/01_audio.mp3" type="audio/mpeg">
+            <source src="./sounds/02_audio.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+          </audio>
+          <p>audio_original.mp3 // http://jamen.do/t/1900662 // Licencia: CC BY, CC NC, CC ND // 4.63MB</p>
+        </div>        
+      </section>
+      <!-- Vídeo -->
+      <section class="video-section">
+        <h2><a name="video"></a>vídeo</h2>
+        <div>
+          <video controls preload="metadata">
+            <source src="./videos/01_video.mp4" type="video/mpeg"/>
+            <source src="./videos/02_video.webm" type="video/webm"/>
+          </video>
+          <p>video_original.mp4 // https://www.pexels.com/video/woman-doing-lifting-exercises-in-a-gym-3196428/
+            // Licencia: CC0 // 37.9MB</p>
+          <p>01_video.mp4: 11MB // 02_video.webm: 5.12MB</p>
+        </div>
+      </section>
+    </main>
+    <!-- PIE DE PÁGINA -->
+    <footer>
+      <span> Aida Gómez Galán - Recursos multimedia</span>
+    </footer>
+  </body>
+</html>
