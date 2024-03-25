@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CrossFiteros Club - Novedades</title>
+    <script
+      src="https://kit.fontawesome.com/dbff5b41e6.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="images/favicon.png" sizes="96x96" />
+    <!--HOJA DE ESTILO VINCULADA-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--CABECERA-->
+    <header class="container-header">
+      <div class="header header-left">
+        <a href="./index.html"
+          ><img id="logo" src="images/logo.png" alt="crossfiterosclub"
+        /></a>
+        <div id="name">CROSSFITEROS CLUB</div>
+      </div>
+      <div class="header header-right">
+        <a href="https://www.iestrassierra.com/" target="_blank">
+          <span class="fas fa-lock" title="Zona Privada"></span>
+          <span class="fas fa-cart-arrow-down" title="Carrito"></span>
+          <span class="fas fa-question" title="Ayuda"></span>
+          <span class="fas fa-wheelchair" title="Accesibilidad"></span>
+        </a>
+        <!-- 
+        CAMBIADO PARA CUMPLIR EL CRITERIO DE CONFORMIDAD DE ENLACES ADYACENTES QUE ENLAZAN CON UN MISMO RECURSO
+          <a
+          class="fas fa-lock"
+          title="Zona Privada"
+          href="https://www.iestrassierra.com/"
+          target="_blank"
+        ></a>
+        <a
+          class="fas fa-cart-arrow-down"
+          title="Carrito"
+          href="https://www.iestrassierra.com/"
+          target="_blank"
+        ></a>
+        <a
+          class="fas fa-question"
+          title="Ayuda"
+          href="https://www.iestrassierra.com/"
+          target="_blank"
+        ></a>
+        <a
+          class="fas fa-wheelchair"
+          title="Accesibilidad"
+          href="https://www.iestrassierra.com/"
+          target="_blank"
+        ></a>-->
+      </div>
+    </header>
+    <!--MENÚ DE NAVEGACIÓN-->
+    <nav class="container-nav">
+      <input type="checkbox" id="burguer" />
+      <label for="burguer" class="burguer">
+        <span class="fas fa-bars"></span>
+      </label>
+      <ul class="nav-ul">
+        <li class="nav-li">
+          <a
+            title="atajo teclado: b"
+            href="https://www.iestrassierra.com/"
+            target="_blank"
+            accesskey="b"
+            >EL CLU<span class="atajo">B</span></a
+          >
+        </li>
+        <li class="nav-li">
+          <a
+            title="atajo teclado: w"
+            href="https://www.iestrassierra.com/"
+            target="_blank"
+            accesskey="w"
+            ><span class="atajo">W</span>ODS</a
+          >
+        </li>
+        <li class="nav-li">
+          <a
+            title="atajo teclado: j"
+            href="https://www.iestrassierra.com/"
+            target="_blank"
+            accesskey="j"
+            >E<span class="atajo">J</span>ERCICIOS</a
+          >
+        </li>
+        <li class="nav-li">
+          <a title="atajo teclado: n" href="#" accesskey="n"
+            ><span class="atajo">N</span>OVEDADES</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!--CONTENIDO PRINCIPAL-->
+    <main>
+      <!--NOVEDADES CON MÁS LIKES-->
+      <section class="container-top">
+        <h1>LAS NOVEDADES CON MÁS LIKES</h1>
+        <!--TOP 1 / SUBZONA 1-->
+        <div class="popular">
+          <h2>Top 1</h2>
+          <img
+            src="images/item-popular.jpg"
+            alt="La importancia de la corrección en los ejercicios"
+          />
+          <ul class="popular-ul">
+            <li>EJERCICIOS DIRIGIDOS</li>
+            <li>La importancia de la corrección en los ejercicios</li>
+            <li>
+              <span class="fas fa-comment"></span> 50
+              <span class="fas fa-heart"></span> 48
+            </li>
+          </ul>
+        </div>
+        <!--TOP 5 / SUBZONA 2-->
+        <div class="sub2">
+          <h2>Top 5</h2>
+          <div class="table-div">
+            <table class="table-top">
+              <caption>
+                Las cinco novedades con más likes
+              </caption>
+              <thead>
+                <tr>
+                  <th id="tematica">Temática</th>
+                  <th class="hcenter" id="comentarios">
+                    <span class="fas fa-comment"></span> Comentarios
+                  </th>
+                  <th class="hcenter" id="likes">
+                    <span class="fas fa-heart"></span> Likes
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th id="ejercicios-dirigidos" headers="tematica">
+                    Ejercicios dirigidos
+                  </th>
+                  <td headers="ejercicios-dirigidos comentarios">50</td>
+                  <td headers="ejercicios-dirigidos likes">48</td>
+                </tr>
+                <tr>
+                  <th id="sentadillas" headers="tematica">Sentadillas</th>
+                  <td headers="sentadillas comentarios">45</td>
+                  <td headers="sentadillas likes">40</td>
+                </tr>
+                <tr>
+                  <th id="saltos-cajon" headers="tematica">Saltos al cajón</th>
+                  <td headers="saltos-cajon comentarios">25</td>
+                  <td headers="saltos-cajon likes">30</td>
+                </tr>
+                <tr>
+                  <th id="remo" headers="tematica">Remo</th>
+                  <td headers="remo comentarios">20</td>
+                  <td headers="remo likes">28</td>
+                </tr>
+                <tr>
+                  <th id="zancadas-barra" headers="tematica">
+                    Zancadas con barra
+                  </th>
+                  <td headers="zancadas-barra comentarios">23</td>
+                  <td headers="zancadas-barra likes">20</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th id="total" headers="tematica">Total</th>
+                  <td headers="total comentarios">163</td>
+                  <td headers="total likes">166</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      </section>
+      <!--FORMULARIO-->
+      <section class="container-form">
+        <h2>Suscríbete a nuestra Newsletter</h2>
+        <form class="novedades-form">
+          <fieldset class="datos-personales">
+            <legend>Datos Personales</legend>
+            <label for="fname"></label>
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="Nombre*"
+              maxlength="20"
+              required
+            />
+            <label for="apellidos"></label>
+            <input
+              type="text"
+              id="apellidos"
+              name="apellidos"
+              placeholder="Apellidos*"
+              maxlength="30"
+              required
+            />
+            <label for="email"></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email*"
+              maxlength="20"
+              required
+            />
+            <label for="tlf"></label>
+            <input
+              type="tel"
+              id="tlf"
+              name="tlf"
+              placeholder="Teléfono"
+              maxlength="9"
+              pattern="[6-9]{1}[0-9]{8}"
+              title="El teléfono debe comenzar por 6,7,8 o 9"
+            />
+            <br /><br />
+            <label for="birthday"
+              >Fecha Nacimiento*<input
+                type="date"
+                id="birthday"
+                name="birthday"
+                required
+            /></label>
+            <div>
+              <p>* Campos obligatorios</p>
+              <p>Los campos marcados en rojo son incorrectos</p>
+            </div>
+          </fieldset>
+          <fieldset class="categorias">
+            <legend>Categorías</legend>
+            <h3>Wods</h3>
+            <input type="checkbox" id="escalado-i" />
+            <label for="escalado-i">Escalado individual</label><br />
+            <input type="checkbox" id="rx-i" />
+            <label for="rx-i">RX individual</label><br />
+            <input type="checkbox" id="escalado-t" />
+            <label for="escalado-t">Escalado team</label><br />
+            <input type="checkbox" id="rx-team" />
+            <label for="rx-team">RX team</label><br />
+            <h3>Ejercicios</h3>
+            <input type="checkbox" id="tren-s" />
+            <label for="tren-s">Tren superior</label><br />
+            <input type="checkbox" id="tren-i" />
+            <label for="tren-i">Tren inferior</label><br />
+            <input type="checkbox" id="cardio" />
+            <label for="cardio">Cardio</label><br />
+            <input type="checkbox" id="completo" />
+            <label for="completo">Completo</label><br />
+            <h3>Novedades</h3>
+            <input type="checkbox" id="nutricion" />
+            <label for="nutricion">Nutrición</label><br />
+            <input type="checkbox" id="wods" />
+            <label for="wods">Wods</label><br />
+            <input type="checkbox" id="ejercicios" />
+            <label for="ejercicios">Ejercicios</label><br />
+            <input type="checkbox" id="eventos" />
+            <label for="eventos">Eventos</label><br />
+          </fieldset>
+          <fieldset class="pd">
+            <legend>Política protección de datos</legend>
+            <label for="pd"></label>
+            <textarea id="pd" readonly>
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, illo necessitatibus. Nulla voluptatem tempore expedita dicta natus! Optio, aperiam porro! Dicta eveniet quam vel minus ad harum itaque, quia quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque consequatur, veritatis quae natus voluptatibus totam. Beatae ducimus et dolor possimus exercitationem at accusamus provident assumenda autem, quibusdam est tempora labore! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem sapiente maxime laborum voluptas obcaecati, consequatur id eveniet molestiae distinctio? Alias distinctio aliquid quisquam pariatur sint corrupti debitis esse perferendis tempora? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid saepe officiis ratione ab tempore vel facere rem maiores ipsam reiciendis quo exercitationem iusto earum excepturi, autem ut laudantium magni. Saepe.
+            </textarea
+            ><br />
+            <label for="confirmar-pd"
+              >¿Acepta las condiciones de suscripción?</label
+            ><br />
+            <input
+              type="radio"
+              id="si"
+              name="confirmar-pd"
+              value="si"
+              checked
+            />
+            <label for="si">Si</label>
+            <input type="radio" id="no" name="confirmar-pd" value="no" />
+            <label for="no">No</label>
+          </fieldset>
+          <div class="botones">
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Cancelar" />
+          </div>
+        </form>
+      </section>
+    </main>
+    <!--PIE DE PÁGINA-->
+    <footer class="container-footer">
+      <ul class="footer-docs">
+        <li>
+          <a href="https://www.iestrassierra.com/" target="_blank"
+            >Aviso Legal</a
+          >
+        </li>
+        <li>
+          <a href="https://www.iestrassierra.com/" target="_blank"
+            >Política de Cookies</a
+          >
+        </li>
+        <li>
+          <a href="https://www.iestrassierra.com/" target="_blank"
+            >Condiciones Generales</a
+          >
+        </li>
+        <li>
+          <a href="https://www.iestrassierra.com/" target="_blank"
+            >Protección de datos</a
+          >
+        </li>
+      </ul>
+      <ul class="footer-info">
+        <li>&copy;Copyright 2022</li>
+        <li>Crossfiteros Club</li>
+        <li>C/ Calvario s/n</li>
+        <li>info@crossfiterosclub.es</li>
+      </ul>
+    </footer>
+  </body>
+</html>
