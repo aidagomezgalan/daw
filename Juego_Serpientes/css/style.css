@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Dynapuff", sans-serif;
+  background-color: #93b95d;
+  color: rgb(0, 0, 0);
+  padding: 0;
+  font-size: 1em;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 480px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: .4em;
+
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: .4em;
+}
+
+#time {
+  margin-bottom: .5em;
+}
+
+#table {
+  margin-bottom: .5em;
+}
+
+#message {
+  margin-bottom: .5em;
+}
+
+td {
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+}
+
+#button_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+button {
+  font: inherit;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  background-color: #006cb6;
+  color: #fff;
+  cursor: pointer;
+  width: 200px;
+}
+
+button:hover {
+  background-color: #004584;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: inherit;
+}
+
+.exploradora {
+  background-image: url("../images/exploradora.png");
+  background-repeat: no-repeat;
+  background-size: 35px 35px;
+
+}
+
+.serpiente1 {
+  background-image: url("../images/serpiente1.png");
+  background-repeat: no-repeat;
+  background-size: 35px 35px;
+}
+
+.serpiente2 {
+  background-image: url("../images/serpiente2.png");
+  background-repeat: no-repeat;
+  background-size: 35px 35px;
+}
+
+.serpiente3 {
+  background-image: url("../images/serpiente3.png");
+  background-repeat: no-repeat;
+  background-size: 35px 35px;
+}
+
+.devoradora {
+  background-image: url("../images/serpienteComiendo.png");
+  background-repeat: no-repeat;
+  background-size: 35px 35px;
+}
+
+.door_opened {
+  background-image: url("../images/door_opened.png");
+  background-repeat: no-repeat;
+  background-size: 35px 35px;
+}
+
+.door_closed {
+  background-image: url("../images/door_closed.png");
+  background-repeat: no-repeat;
+  background-size: 35px 35px;
+}
